@@ -1,0 +1,103 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/order_fragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moo.coffeeorder.fragments.OrderFragment"
+    android:orientation="vertical"
+    android:background="#4b7c4c"
+    android:fitsSystemWindows="true"
+    >
+
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <Spinner
+            android:singleLine="false"
+            android:textAlignment="center"
+            android:background="@android:color/white"
+            android:text="@string/selected_store"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/store_spinner"
+            />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/store_spinner"
+            android:padding="30dp"
+            android:id="@+id/store_info"
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="195dp"
+            android:background="#2e6a87"/>
+
+
+
+
+     <Button
+         android:layout_alignParentLeft="true"
+      android:layout_marginLeft="40dp"
+         android:padding="20dp"
+         android:gravity="center"
+         android:layout_above="@id/past_order_view"
+         android:layout_width="140dp"
+         android:layout_height="wrap_content"
+         android:text="@string/favourites"
+         />
+        <Button
+            android:layout_marginRight="40dp"
+            android:padding="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@id/past_order_view"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="Past Orders"
+            />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/past_order_view"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/create_new"
+            android:background="@android:color/white">
+
+            <TextView
+
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:onClick="newOrder"
+            android:id="@+id/create_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_order"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

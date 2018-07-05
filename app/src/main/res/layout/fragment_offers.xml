@@ -1,0 +1,16 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moo.coffeeorder.fragments.OffersFragment"
+    android:fitsSystemWindows="true">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have no offers available right now" />
+
+</android.support.design.widget.CoordinatorLayout>

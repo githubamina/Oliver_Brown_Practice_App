@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_user2"
+            android:title="@string/home_title"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_order"
+            android:title="@string/order_now_title"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/ic_offers"
+            android:title="@string/my_offers"
+            app:showAsAction="always"/>
+
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_place"
+            android:title="@string/locations_title"
+            app:showAsAction="always"/>
+        
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu"
+            android:title="@string/menu_title"/>
+        
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_nav"
+            android:title="@string/settings_title"/>
+
+    </group>
+
+    <item android:id="@+id/socials" android:title="@string/socials_title">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/ic_facebook"
+                android:title="@string/fb_title"/>
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/ic_instagram"
+                android:title="@string/ig_title"/>
+            <item
+                android:id="@+id/logout"
+                android:title="@string/log_out"/>
+        </menu>
+    </item>
+
+</menu>

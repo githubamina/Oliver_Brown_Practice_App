@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Coffee Order</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_home">User Home</string>
+    <string name="order_here">Order Here</string>
+    <string name="find_us">Find us</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="free_drink">Points for a  \nfree drink</string>
+    <string name="ob_cash">OB Cash</string>
+    <string name="points">0/10</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_title">Menu</string>
+    <string name="faq_title">FAQ</string>
+    <string name="settings_title">Settings</string>
+    <string name="locations_title">Locations</string>
+    <string name="my_offers">My offers</string>
+    <string name="order_now_title">Order now</string>
+    <string name="home_title">Home</string>
+    <string name="socials_title">Get social</string>
+    <string name="log_out">Log Out</string>
+    <string name="fb_title">facebook</string>
+    <string name="ig_title">instagram</string>
+    <string name="selected_store">Your selected store is:\n Pick a store</string>
+    <string name="favourites">Favourites</string>
+    <string name="placeholder">You don\'t have any favourites yet</string>
+    <string name="new_order">Create new order</string>
+
+
+    <string name="iced_choc_coconut">Our Iced Chocolate infused with coconut</string>
+    <string name="iced_choc_banana">Our Iced Chocolate with a twist of banana</string>
+    <string name="iced_choc_description">Our premium belgian Chocolate with milk and ice.</string>
+    <string name="iced_mocha_description">Our Iced Chocolate blended with our speciality coffee.</string>
+
+    <string name="sneaky_snickers">Our Iced Chocolate infused with a sneaky addition of a Snickers bar</string>
+
+    <string name="iced_black_forest">Our Iced Chocolate with a twist of cherry</string>
+
+    <string name="pink_choc">Our premium white Belgian Chocolate blended with strawberries</string>
+
+    <string name="iced_choc_mojito">Our Iced Chocolate infused with mint</string>
+
+    <string name="cookies_cream">Our Iced Chocolate blended with Oreo cookies</string>
+
+    <string name="green_tea_ice">Matcha green tea blended with milk and vanilla ice cream</string>
+
+    <string name="chai_latte_ice">Aromatic chair blended with milk and vanilla ice cream</string>
+
+    <string name="iced_coffee">Freshly brewed espresso blended with milk and vanilla ice cream</string>
+
+    <string name="iced_long_black">Freshly brewed espresso and cold water over ice</string>
+
+    <string name="berry_crush">A thirst-quenching mix of berries blended with ice</string>
+
+    <string name="lemon_lime">A refreshing combo of lemon, lime and mint leaves blended with ice</string>
+
+    <string name="mango_passionfruit">Mango and passionfruit puree blended with ice</string>
+
+    <string name="yuzu">A sensation of citrus purees blended with ice</string>
+
+    <string name="lychee">Lychees blended with ice</string>
+
+    <string name="passionfruit">Passionfruit puree blended with ice</string>
+
+    <string name="strawberry_yo">Strawberries blended with yoghurt and ice</string>
+
+    <string name="blueberry_yo">Blueberries blended with yoghurt and ice</string>
+
+    <string name="milkshake">Our classic milkshake made in your favourite flavour</string>
+
+    <string name="gelato_shake">Choose your gelato flavour from our gelato display</string>
+
+    <string name="iced_tea">Freshly brewed infusions served over ice</string>
+
+    <string name="lemonade">Our original recipe house-made lemonade</string>
+    <string name="no_locations">No locations found. Please check your location settings and internet connection and try again.</string>
+
+
+    <string-array name="stores_array">
+        <item>Auburn</item>
+        <item>Bankstown</item>
+        <item>Beverly Hills</item>
+        <item>Blacktown</item>
+        <item>Brighton LS</item>
+        <item>Burwood Railway</item>
+        <item>Burwood WF</item>
+        <item>Canley Heights</item>
+        <item>Carlingford</item>
+        <item>Casula</item>
+        <item>Chatswood</item>
+        <item>Cherrybrook</item>
+        <item>Crows Nest</item>
+        <item>Eastwood</item>
+        <item>Granville</item>
+        <item>Guildford</item>
+        <item>Haymarket</item>
+        <item>Homebush DFO</item>
+        <item>Hornsby</item>
+        <item>Hurstville</item>
+        <item>Lane Cove</item>
+        <item>Lidcombe</item>
+        <item>LS Bankstown</item>
+        <item>Liverpool</item>
+        <item>Macarthur SQ</item>
+        <item>Mascot</item>
+        <item>Merrylands</item>
+        <item>Miranda</item>
+        <item>Mt Druitt</item>
+        <item>Parramatta</item>
+        <item>Penrith</item>
+        <item>Rhodes</item>
+        <item>Rouse Hill</item>
+        <item>Strathfield</item>
+        <item>Sydney Airport</item>
+        <item>The Ponds</item>
+        <item>Top Ryde City</item>
+        <item>Top Ryde Terrace</item>
+        <item>Wetherill Park</item>
+        <item>World Square</item>
+        <item>WSU Bankstown</item>
+        <item>WSU Parramatta</item>
+        <item>Zetland</item>
+    </string-array>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="title_activity_place_order">PlaceOrderActivity</string>
+
+</resources>
